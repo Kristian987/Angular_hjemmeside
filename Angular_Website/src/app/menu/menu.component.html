@@ -1,1 +1,51 @@
-<p>menu works!</p>
+<div class="container">
+  <div class="row menuBlock">
+    <div class="col">
+      <p class="menuText">Forside</p>
+    </div>
+    <div class="col">
+      <p class="menuText">Kropsterapi</p>
+    </div>
+    <div class="col">
+      <p class="menuText">Om mig</p>
+    </div>
+    <div class="col">
+      <p class="menuText">Info og priser</p>
+    </div>
+    <div class="col">
+      <p class="menuText">Kontakt</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+    <ul class="nav nav-tabs">
+      <li role="presentation"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: true}">
+        <a routerLink="/">Forside</a>
+      </li>
+      <li role="presentation"
+          routerLinkActive="active">
+        <a routerLink="kropsterapi">Kropsterapi</a>
+      </li>
+      <li role="presentation"
+          routerLinkActive="active">
+        <a [routerLink]="['about']">Om mig</a>
+      </li>
+      <li role="presentation"
+          routerLinkActive="active">
+        <a [routerLink]="['prices']">Info og priser</a>
+      </li>
+      <li role="presentation"
+          routerLinkActive="active">
+        <a [routerLink]="['contact']">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+</div>
