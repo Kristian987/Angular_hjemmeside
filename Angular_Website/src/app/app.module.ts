@@ -9,6 +9,8 @@ import { BodytherapyComponent } from './bodytherapy/bodytherapy.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
 import { PricesComponent } from './prices/prices.component';
+import { BottomMenuComponent } from './bottom-menu/bottom-menu.component';
+import { FrontpageComponent } from './frontpage/frontpage.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -25,7 +27,9 @@ const appRoutes: Routes = [
     BodytherapyComponent,
     ContactComponent,
     MenuComponent,
-    PricesComponent
+    PricesComponent,
+    BottomMenuComponent,
+    FrontpageComponent
   ],
   imports: [
     BrowserModule,
