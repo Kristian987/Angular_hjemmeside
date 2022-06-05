@@ -13,6 +13,7 @@ import { BottomMenuComponent } from './bottom-menu/bottom-menu.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
 
 const appRoutes: Routes = [
+  { path: '', component: FrontpageComponent },
   { path: 'about', component: AboutComponent },
   { path: 'bodytherapy', component: BodytherapyComponent },
   { path: 'contact', component: ContactComponent },

@@ -1,17 +1,11 @@
-<div class="container-fluid">
-  <div class="row" style="background-color: blanchedalmond;">
-    <div class="col-md-12">
-      <app-menu></app-menu>
-    </div>
+<div class="container-fluid px-0">
+  <div class="header">
+    <app-menu></app-menu>
   </div>
-  <div class="row" style="background-color: antiquewhite; padding: 30px 0px 30px 0px;">
-    <div class="col"></div>
-    <div class="col-md-8"><router-outlet></router-outlet></div>
-    <div class="col"></div>
+  <div class="main">
+    <router-outlet></router-outlet>
   </div>
-  <div class="row" style="background-color: blanchedalmond;">
-    <div class="col"></div>
-    <div class="col-md-10"><app-bottom-menu></app-bottom-menu></div>
-    <div class="col"></div>
+  <div class="footer" style="background-color: blanchedalmond;">
+    <app-bottom-menu></app-bottom-menu>
   </div>
 </div>
