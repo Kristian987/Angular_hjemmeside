@@ -11,6 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { PricesComponent } from './prices/prices.component';
 import { BottomMenuComponent } from './bottom-menu/bottom-menu.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const appRoutes: Routes = [
   { path: '', component: FrontpageComponent },
@@ -35,7 +36,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
