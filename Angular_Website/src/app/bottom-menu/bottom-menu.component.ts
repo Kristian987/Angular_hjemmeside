@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-bottom-menu',
@@ -12,4 +13,5 @@ export class BottomMenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  faCoffee = faCoffee;
 }
