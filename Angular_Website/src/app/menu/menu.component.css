@@ -1,0 +1,17 @@
+.navItem {
+    color: black;
+    font-size: 1.2vw;
+    padding: 1.3vw 2vw;
+}
+
+.titleName {
+    color: orange;
+    font-size: 1.8vw;
+}
+
+.divName {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
